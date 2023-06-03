@@ -92,13 +92,13 @@ function setPreferredTheme() {
   if (window.matchMedia) {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       preferredTheme = darkTheme
-      preferredForeground = darkForeground
-      preferredBackground = darkBackground
-      preferredCursor = lightTheme_magenta
+      preferredForeground = darkTheme_foregroundColor
+      preferredBackground = darkTheme_backgroundColor
+      preferredCursor = darkTheme_magenta
     } else {
-      preferredTheme = lightScheme
-      preferredForeground = lightForeground
-      preferredBackground = lightBackground
+      preferredTheme = lightTheme
+      preferredForeground = lightTheme_foregroundColor
+      preferredBackground = darkTheme_backgroundColor
       preferredCursor = lightTheme_magenta
     }
   }
