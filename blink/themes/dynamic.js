@@ -16,7 +16,7 @@ var lightTheme_lightMagenta = '#8839EF'
 var lightTheme_lightCyan = '#04A5E5'
 var lightTheme_lightWhite = '#4C4F69'
 
-var lightTheme_foregroundColor = white
+var lightTheme_foregroundColor = lightTheme_white
 var lightTheme_backgroundColor = '#F5E5CF'
 
 var lightTheme = [
@@ -55,7 +55,7 @@ var darkTheme_lightBlue = '#92B3F4'
 var darkTheme_lightMagenta = '#CBA6F7'
 var darkTheme_lightCyan = '#74C7EC'
 var darkTheme_lightWhite = '#CDD6F4'
-var darkTheme_foregroundColor = white
+var darkTheme_foregroundColor = darkTheme_white
 var darkTheme_backgroundColor = '#1C1C1C'
 
 var darkTheme = [
