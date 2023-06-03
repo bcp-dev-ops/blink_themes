@@ -16,7 +16,7 @@ var lightCyan = '#04A5E5'
 var lightWhite = '#4C4F69'
 
 var foregroundColor = white
-var backgroundColor = '#F5E5CF'
+var backgroundColor = '#F9D9B4'
 
 t.prefs_.set('color-palette-overrides', [
   black,

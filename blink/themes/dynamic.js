@@ -17,7 +17,7 @@ var lightTheme_lightCyan = '#04A5E5'
 var lightTheme_lightWhite = '#4C4F69'
 
 var lightTheme_foregroundColor = lightTheme_white
-var lightTheme_backgroundColor = '#F5E5CF'
+var lightTheme_backgroundColor = '#F9D9B4'
 
 var lightTheme = [
   lightTheme_black,
